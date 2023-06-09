@@ -10,10 +10,10 @@ Download the files as a zip using the green button, or clone the repository to y
 ## Prerequisition
 
 - python 3 [installation](http://www.stevenpei.com/doc/InstallPython.pdf)
-- PyQt 5 [installation](http://www.stevenpei.com/doc/InstallPyQt.pdf) {pip3 install pyqt5}
-- pySerial {pip3 install pyserial}
-- moviepy {pip install moviepy}
-- re
+- PyQt 5 [installation](http://www.stevenpei.com/doc/InstallPyQt.pdf) pip3 install pyqt5
+- pySerial pip3 install pyserial
+- moviepy pip install moviepy
+- re python regular expression package
 
 ## Download and Installation
 - Download the repository az a zip file into your local computer;
