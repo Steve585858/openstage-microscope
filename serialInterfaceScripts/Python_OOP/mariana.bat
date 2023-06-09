@@ -38,7 +38,7 @@ goto Exit
 :GUI
 rem & C:/Python311/python.exe c:/Projects/books/sandbox/camera1.py
 rem C:/Python311/python.exe %LAUNCH_HOME%camera1.py
-python.exe %LAUNCH_HOME%src\camera.py
+python.exe %LAUNCH_HOME%src\MarianaGUI.py
 PAUSE
 goto Exit
 
