@@ -63,6 +63,14 @@ class MarianaMenu():
         operation_menu.addAction(self.opMoveLeft)
         self.opMoveRight = OperationActions(self.parent, "Move Right")
         operation_menu.addAction(self.opMoveRight)
+        self.opMoveForward = OperationActions(self.parent, "Move Forwards")
+        operation_menu.addAction(self.opMoveForward)
+        self.opMoveBackward = OperationActions(self.parent, "Move Backwards")
+        operation_menu.addAction(self.opMoveBackward)
+        self.opMoveUp = OperationActions(self.parent, "Move Up")
+        operation_menu.addAction(self.opMoveUp)
+        self.opMoveDown = OperationActions(self.parent, "Move Down")
+        operation_menu.addAction(self.opMoveDown)
 
 
 

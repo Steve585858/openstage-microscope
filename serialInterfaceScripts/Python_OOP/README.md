@@ -10,10 +10,12 @@ Download the files as a zip using the green button, or clone the repository to y
 ## Prerequisition
 
 - python 3 [installation](http://www.stevenpei.com/doc/InstallPython.pdf)
-- PyQt 5 [installation](http://www.stevenpei.com/doc/InstallPyQt.pdf) pip3 install pyqt5
-- pySerial pip3 install pyserial
-- moviepy pip install moviepy
-- re python regular expression package
+- PyQt 5 [installation](http://www.stevenpei.com/doc/InstallPyQt.pdf)
+- pymata-express [installation](https://mryslab.github.io/pymata-express/) [code](https://github.com/MrYsLab/pymata-express) [API](https://htmlpreview.github.io/?https://github.com/MrYsLab/pymata-express/blob/master/html/pymata_express/index.html)
+- FormateExpress [installation](https://github.com/MrYsLab/FirmataExpress)
+- pySerial 
+- re
+- 
 
 ## Download and Installation
 - Download the repository az a zip file into your local computer;

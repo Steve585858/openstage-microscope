@@ -1,5 +1,5 @@
 from PyQt5.QtWidgets import QAction
-from PyQt5.QtGui import QIcon, QPixmap, QTransform, QPainter
+from PyQt5.QtGui import QIcon, QPixmap, QTransform, QPainter, QKeySequence
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QLabel, QAction, QFileDialog, QDesktopWidget, QMessageBox, QSizePolicy, QToolBar, QStatusBar, QDockWidget, QVBoxLayout, QPushButton)
 from PyQt5.QtGui import QIcon, QImage, QPixmap, QTransform, QPainter
 from PyQt5.QtCore import Qt, QObject, pyqtSignal, pyqtSlot, QRunnable, QThreadPool
@@ -34,23 +34,53 @@ class OperationActions(QAction):
             self.setIcon(QIcon('images/open_file.png'))
             self.setShortcut('Ctrl+O')
             self.setStatusTip('Scan open stage')
+            
         elif(self.actionName=="Move Left"):
             self.setIcon(QIcon('images/moveToLeft.png'))
-            self.setShortcut('Ctrl+L')
+            self.setShortcut(QKeySequence(Qt.ControlModifier+Qt.Key_Left))
             self.setStatusTip('Move one step to the left of the current position')
         elif(self.actionName=="Move Right"):
             self.setIcon(QIcon('images/moveToRight.png'))
-            self.setShortcut('Ctrl+R')
+            self.setShortcut(QKeySequence(Qt.ControlModifier+Qt.Key_Right))
             self.setStatusTip('Move one step to the right of the current position')
+            
+        elif(self.actionName=="Move Forwards"):
+            self.setIcon(QIcon('images/moveForwards.png'))
+            self.setShortcut(QKeySequence(Qt.ControlModifier+Qt.Key_Up))
+            self.setStatusTip('Move one step forwards of the current position')
+        elif(self.actionName=="Move Backwards"):
+            self.setIcon(QIcon('images/moveBackwards.png'))
+            self.setShortcut(QKeySequence(Qt.ControlModifier+Qt.Key_Down))
+            self.setStatusTip('Move one step backwards of the current position')
+            
+        elif(self.actionName=="Move Up"):
+            self.setIcon(QIcon('images/moveUp.png'))
+            self.setShortcut('Shift+W')
+            self.setStatusTip('Move one step up of the current position')
+        elif(self.actionName=="Move Down"):
+            self.setIcon(QIcon('images/moveDown.png'))
+            self.setShortcut('Shift+S')
+            self.setStatusTip('Move one step down of the current position')
     
 
     def handle_action(self):
         if(self.actionName=="Scan"):
             self.scanStage(self.parent)
+            
         elif(self.actionName=="Move Left"):
             self.moveToLeft(self.parent)
         elif(self.actionName=="Move Right"):
             self.moveToRight(self.parent)
+            
+        elif(self.actionName=="Move Forwards"):
+            self.moveForwards(self.parent)
+        elif(self.actionName=="Move Backwards"):
+            self.moveBackwards(self.parent)
+            
+        elif(self.actionName=="Move Up"):
+            self.moveUp(self.parent)
+        elif(self.actionName=="Move Down"):
+            self.moveDown(self.parent)
         
 
     def scanStage(self, parent):
@@ -66,6 +96,18 @@ class OperationActions(QAction):
     
     def moveToRight(self, parent):
         print("moveToRight")
+
+    def moveForwards(self, parent):
+        print("moveForwards")
+    
+    def moveBackwards(self, parent):
+        print("moveBackwards")
+
+    def moveUp(self, parent):
+        print("moveUp")
+    
+    def moveDown(self, parent):
+        print("moveDown")
     
     def progress_fn(self, n):
         count = n[0]
