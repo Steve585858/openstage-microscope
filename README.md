@@ -2,11 +2,7 @@
 
 This repository is based on [*raacampbell/openstage*](https://github.com/raacampbell/openstage) and  [*Turner Lab*](https://www.janelia.org/lab/turner-lab/openstage).
 
-<h3 align="center">X, Y, and Z axis</h3>
-<p align="center"><img src="mariana/src/images/lab_microscope2_small.jpg" /></p>
-<p>  </p>
-
-<h3 align="center">The Motorized Microscope</h3>
+<h3 align="center">X, Y, and Z axis of the Microscope</h3>
 <p align="center"><img src="mariana/src/images/lab_microscope3_small.jpg" /></p>
 <p>  </p>
 
