@@ -1,5 +1,11 @@
 # MARIANA project Source Code
-<h3 align="center">_X, Y, and Z axis_</h3>
+
+This repository is based on [*raacampbell/openstage*](https://github.com/raacampbell/openstage) and  [*Turner Lab*](https://www.janelia.org/lab/turner-lab/openstage).
+
+[comment]: #cover
+![Cover image](./mariana/src/images/lab_microscope3_small.jpg)
+
+<h3 align="center">X, Y, and Z axis</h3>
 <p align="center"><img src="mariana/src/images/lab_microscope2_small.jpg" /></p>
 <p>  </p>
 
@@ -14,11 +20,6 @@
 <h3 align="center">GUI that controls the motors</h3>
 <p align="center"><img src="mariana/src/images/mainGUI.jpeg" /></p>
 <p>  </p>
-
-This repository is based on [*raacampbell/openstage*](https://github.com/raacampbell/openstage) and  [*Turner Lab*](https://www.janelia.org/lab/turner-lab/openstage).
-
-[comment]: #cover
-![Cover image](./mariana/src/images/lab_microscope3_small.jpg)
 
 Download the files as a zip using the green button, or clone the repository to your machine using Git.
 
