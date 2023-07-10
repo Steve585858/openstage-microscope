@@ -1,15 +1,19 @@
-
-<h1>Mariana</h1>
-
-<h3 align="center">Motorizing a Microscope under $1000 </h3>
+# MARIANA project Source Code
+<h3 align="center">_X, Y, and Z axis_</h3>
 <p align="center"><img src="mariana/src/images/lab_microscope2_small.jpg" /></p>
 <p>  </p>
 
-<img src="mariana/src/images/lab_microscope3_small.jpg" />
-<img src="mariana/src/images/motorRunning.gif" />
-<img src="mariana/src/images/mainGUI.jpeg" />
+<h3 align="center">The Motorized Microscope</h3>
+<p align="center"><img src="mariana/src/images/lab_microscope3_small.jpg" /></p>
+<p>  </p>
 
-# MARIANA project Source Code
+<h3 align="center">X, Y, and Z axis motors running</h3>
+<p align="center"><img src="mariana/src/images/motorRunning.gif" /></p>
+<p>  </p>
+
+<h3 align="center">GUI that controls the motors</h3>
+<p align="center"><img src="mariana/src/images/mainGUI.jpeg" /></p>
+<p>  </p>
 
 This repository is based on [*raacampbell/openstage*](https://github.com/raacampbell/openstage) and  [*Turner Lab*](https://www.janelia.org/lab/turner-lab/openstage).
 
