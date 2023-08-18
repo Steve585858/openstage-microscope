@@ -29,9 +29,7 @@ class OperationActions(MarianaActions):
     def __init__(self, parent, actionName):
         super().__init__(parent, actionName)
         if(self.actionName=="Board Info"):
-            self.createSubMenu(actionName, 100, 'Retrieve Arduino board information')
-        elif(self.actionName=="Motor Info"):
-            self.createSubMenu(actionName, 200, 'Retrieve motor information')
+            self.createSubMenu(actionName, 100, 'Retrieve Ayduino board information')
         elif(self.actionName=="Control Step Motor"):
             self.createSubMenu(actionName, 101, 'Control Step Motor')
         elif(self.actionName=="Microstep Resolution"):
